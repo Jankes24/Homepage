@@ -9,16 +9,22 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  border-bottom: 5px black solid;
-  background: linear-gradient(180deg, #717273, #535557);
+  background: black;
 }
 .option {
   font-size: 24px;
-  color: black;
+  font-family: Anton SC;
+  color: beige;
+}
+.option:hover {
+  cursor: pointer;
+  color: #335577;
+  user-select: none;
 }
 h1 {
+  user-select: none;
   display: flex;
-  font-family: Shrikhand;
+  font-family: Anton SC;
   margin: 0;
   font-size: 100px;
   text-align: center;
